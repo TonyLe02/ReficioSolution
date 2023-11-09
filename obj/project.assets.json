@@ -12114,11 +12114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution1\\ReficioSolution.csproj",
+      "projectUniqueName": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\ReficioSolution.csproj",
       "projectName": "ReficioSolution",
-      "projectPath": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution1\\ReficioSolution.csproj",
+      "projectPath": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\ReficioSolution.csproj",
       "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution1\\obj\\",
+      "outputPath": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",

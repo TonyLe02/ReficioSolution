@@ -1,4 +1,4 @@
-![Nøsted logo](https://raw.githubusercontent.com/Prosjekt2023/Reficio/main/bacit-dotnet.MVC/wwwroot/nlogo.png)
+![Nøsted logo](https://raw.githubusercontent.com/ReficioSolution/main/ReficioSolution/wwwroot/nlogo.png)
 
 ## Før du kjører programmet:
 * Lag en database i MariaDB
