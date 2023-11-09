@@ -1,4 +1,4 @@
-![Nøsted logo](https://raw.githubusercontent.com/TonyLe02/main/ReficioSolution.MVC/wwwroot/nlogo.png)
+![Nøsted logo](https://raw.githubusercontent.com/TonyLe02/main/ReficioSolution.csproj/wwwroot/nlogo.png)
 
 ## Før du kjører programmet:
 * Lag en database i MariaDB
