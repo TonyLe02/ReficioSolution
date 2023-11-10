@@ -1276,8 +1276,8 @@
     </collation>
     <schema id="508" parent="1" name="ReficioDB">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-10.15:56:14</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-10.14:56:14</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-10.22:57:40</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-10.21:57:40</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="509" parent="1" name="information_schema">
@@ -1308,7 +1308,7 @@
     <user id="518" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="519" parent="508" name="ApplicationUser">
+    <table id="519" parent="508" name="ApplicationUsers">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
@@ -1340,803 +1340,427 @@
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="527" parent="508" name="Checklist">
+    <table id="527" parent="508" name="__EFMigrationsHistory">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="528" parent="508" name="ChecklistCheckpoints">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="529" parent="508" name="CheckpointsEntry">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="530" parent="508" name="ServiceFormEntry">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="531" parent="508" name="__EFMigrationsHistory">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="532" parent="508" name="mekaniker">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="533" parent="508" name="service_ansatt">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="534" parent="508" name="userAccount">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <column id="535" parent="519" name="Id">
+    <column id="528" parent="519" name="Id">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="536" parent="519" name="Firstname">
+    <column id="529" parent="519" name="Firstname">
       <DasType>longtext|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="537" parent="519" name="Lastname">
+    <column id="530" parent="519" name="Lastname">
       <DasType>longtext|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="538" parent="519" name="UserName">
+    <column id="531" parent="519" name="UserName">
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="539" parent="519" name="NormalizedUserName">
+    <column id="532" parent="519" name="NormalizedUserName">
       <DasType>longtext|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="540" parent="519" name="Email">
+    <column id="533" parent="519" name="Email">
       <DasType>longtext|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="541" parent="519" name="NormalizedEmail">
+    <column id="534" parent="519" name="NormalizedEmail">
       <DasType>longtext|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="542" parent="519" name="EmailConfirmed">
+    <column id="535" parent="519" name="EmailConfirmed">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="543" parent="519" name="PasswordHash">
+    <column id="536" parent="519" name="PasswordHash">
       <DasType>longtext|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="544" parent="519" name="SecurityStamp">
+    <column id="537" parent="519" name="SecurityStamp">
       <DasType>longtext|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="545" parent="519" name="ConcurrencyStamp">
+    <column id="538" parent="519" name="ConcurrencyStamp">
       <DasType>longtext|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="546" parent="519" name="PhoneNumber">
+    <column id="539" parent="519" name="PhoneNumber">
       <DasType>longtext|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="547" parent="519" name="PhoneNumberConfirmed">
+    <column id="540" parent="519" name="PhoneNumberConfirmed">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="548" parent="519" name="TwoFactorEnabled">
+    <column id="541" parent="519" name="TwoFactorEnabled">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="549" parent="519" name="LockoutEnd">
+    <column id="542" parent="519" name="LockoutEnd">
       <DasType>datetime(6)|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="550" parent="519" name="LockoutEnabled">
+    <column id="543" parent="519" name="LockoutEnabled">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>16</Position>
     </column>
-    <column id="551" parent="519" name="AccessFailedCount">
+    <column id="544" parent="519" name="AccessFailedCount">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>17</Position>
     </column>
-    <index id="552" parent="519" name="PRIMARY">
+    <index id="545" parent="519" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="553" parent="519" name="PRIMARY">
+    <key id="546" parent="519" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="554" parent="520" name="Id">
+    <column id="547" parent="520" name="Id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="555" parent="520" name="RoleId">
+    <column id="548" parent="520" name="RoleId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="556" parent="520" name="ClaimType">
+    <column id="549" parent="520" name="ClaimType">
       <DasType>longtext|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="557" parent="520" name="ClaimValue">
+    <column id="550" parent="520" name="ClaimValue">
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="558" parent="520" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+    <foreign-key id="551" parent="520" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetRoles</RefTableName>
     </foreign-key>
-    <index id="559" parent="520" name="PRIMARY">
+    <index id="552" parent="520" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="560" parent="520" name="IX_AspNetRoleClaims_RoleId">
+    <index id="553" parent="520" name="IX_AspNetRoleClaims_RoleId">
       <ColNames>RoleId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="561" parent="520" name="PRIMARY">
+    <key id="554" parent="520" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="562" parent="521" name="Id">
+    <column id="555" parent="521" name="Id">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="563" parent="521" name="Name">
+    <column id="556" parent="521" name="Name">
       <DasType>varchar(256)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="564" parent="521" name="NormalizedName">
+    <column id="557" parent="521" name="NormalizedName">
       <DasType>varchar(256)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="565" parent="521" name="ConcurrencyStamp">
+    <column id="558" parent="521" name="ConcurrencyStamp">
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="566" parent="521" name="PRIMARY">
+    <index id="559" parent="521" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="567" parent="521" name="RoleNameIndex">
+    <index id="560" parent="521" name="RoleNameIndex">
       <ColNames>NormalizedName</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="568" parent="521" name="PRIMARY">
+    <key id="561" parent="521" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="569" parent="521" name="RoleNameIndex">
+    <key id="562" parent="521" name="RoleNameIndex">
       <UnderlyingIndexName>RoleNameIndex</UnderlyingIndexName>
     </key>
-    <column id="570" parent="522" name="Id">
+    <column id="563" parent="522" name="Id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="571" parent="522" name="UserId">
+    <column id="564" parent="522" name="UserId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="572" parent="522" name="ClaimType">
+    <column id="565" parent="522" name="ClaimType">
       <DasType>longtext|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="573" parent="522" name="ClaimValue">
+    <column id="566" parent="522" name="ClaimValue">
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="574" parent="522" name="FK_AspNetUserClaims_AspNetUsers_UserId">
+    <foreign-key id="567" parent="522" name="FK_AspNetUserClaims_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
-    <index id="575" parent="522" name="PRIMARY">
+    <index id="568" parent="522" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="576" parent="522" name="IX_AspNetUserClaims_UserId">
+    <index id="569" parent="522" name="IX_AspNetUserClaims_UserId">
       <ColNames>UserId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="577" parent="522" name="PRIMARY">
+    <key id="570" parent="522" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="578" parent="523" name="LoginProvider">
+    <column id="571" parent="523" name="LoginProvider">
       <DasType>varchar(128)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="579" parent="523" name="ProviderKey">
+    <column id="572" parent="523" name="ProviderKey">
       <DasType>varchar(128)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="580" parent="523" name="ProviderDisplayName">
+    <column id="573" parent="523" name="ProviderDisplayName">
       <DasType>longtext|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="581" parent="523" name="UserId">
+    <column id="574" parent="523" name="UserId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="582" parent="523" name="FK_AspNetUserLogins_AspNetUsers_UserId">
+    <foreign-key id="575" parent="523" name="FK_AspNetUserLogins_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
-    <index id="583" parent="523" name="PRIMARY">
+    <index id="576" parent="523" name="PRIMARY">
       <ColNames>LoginProvider
 ProviderKey</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="584" parent="523" name="IX_AspNetUserLogins_UserId">
+    <index id="577" parent="523" name="IX_AspNetUserLogins_UserId">
       <ColNames>UserId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="585" parent="523" name="PRIMARY">
+    <key id="578" parent="523" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="586" parent="524" name="UserId">
+    <column id="579" parent="524" name="UserId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="587" parent="524" name="RoleId">
+    <column id="580" parent="524" name="RoleId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="588" parent="524" name="FK_AspNetUserRoles_AspNetUsers_UserId">
+    <foreign-key id="581" parent="524" name="FK_AspNetUserRoles_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
-    <foreign-key id="589" parent="524" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+    <foreign-key id="582" parent="524" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
       <ColNames>RoleId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetRoles</RefTableName>
     </foreign-key>
-    <index id="590" parent="524" name="PRIMARY">
+    <index id="583" parent="524" name="PRIMARY">
       <ColNames>UserId
 RoleId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="591" parent="524" name="IX_AspNetUserRoles_RoleId">
+    <index id="584" parent="524" name="IX_AspNetUserRoles_RoleId">
       <ColNames>RoleId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="592" parent="524" name="PRIMARY">
+    <key id="585" parent="524" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="593" parent="525" name="UserId">
+    <column id="586" parent="525" name="UserId">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="594" parent="525" name="LoginProvider">
+    <column id="587" parent="525" name="LoginProvider">
       <DasType>varchar(128)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="595" parent="525" name="Name">
+    <column id="588" parent="525" name="Name">
       <DasType>varchar(128)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="596" parent="525" name="Value">
+    <column id="589" parent="525" name="Value">
       <DasType>longtext|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="597" parent="525" name="FK_AspNetUserTokens_AspNetUsers_UserId">
+    <foreign-key id="590" parent="525" name="FK_AspNetUserTokens_AspNetUsers_UserId">
       <ColNames>UserId</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>Id</RefColNames>
       <RefTableName>AspNetUsers</RefTableName>
     </foreign-key>
-    <index id="598" parent="525" name="PRIMARY">
+    <index id="591" parent="525" name="PRIMARY">
       <ColNames>UserId
 LoginProvider
 Name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="599" parent="525" name="PRIMARY">
+    <key id="592" parent="525" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="600" parent="526" name="Id">
+    <column id="593" parent="526" name="Id">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="601" parent="526" name="UserName">
+    <column id="594" parent="526" name="UserName">
       <DasType>varchar(256)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="602" parent="526" name="NormalizedUserName">
+    <column id="595" parent="526" name="NormalizedUserName">
       <DasType>varchar(256)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="603" parent="526" name="Email">
+    <column id="596" parent="526" name="Email">
       <DasType>varchar(256)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="604" parent="526" name="NormalizedEmail">
+    <column id="597" parent="526" name="NormalizedEmail">
       <DasType>varchar(256)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="605" parent="526" name="EmailConfirmed">
+    <column id="598" parent="526" name="EmailConfirmed">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="606" parent="526" name="PasswordHash">
+    <column id="599" parent="526" name="PasswordHash">
       <DasType>longtext|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="607" parent="526" name="SecurityStamp">
+    <column id="600" parent="526" name="SecurityStamp">
       <DasType>longtext|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="608" parent="526" name="ConcurrencyStamp">
+    <column id="601" parent="526" name="ConcurrencyStamp">
       <DasType>longtext|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="609" parent="526" name="PhoneNumber">
+    <column id="602" parent="526" name="PhoneNumber">
       <DasType>longtext|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="610" parent="526" name="PhoneNumberConfirmed">
+    <column id="603" parent="526" name="PhoneNumberConfirmed">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="611" parent="526" name="TwoFactorEnabled">
+    <column id="604" parent="526" name="TwoFactorEnabled">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="612" parent="526" name="LockoutEnd">
+    <column id="605" parent="526" name="LockoutEnd">
       <DasType>datetime(6)|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="613" parent="526" name="LockoutEnabled">
+    <column id="606" parent="526" name="LockoutEnabled">
       <DasType>tinyint(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="614" parent="526" name="AccessFailedCount">
+    <column id="607" parent="526" name="AccessFailedCount">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>15</Position>
     </column>
-    <index id="615" parent="526" name="PRIMARY">
+    <index id="608" parent="526" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="616" parent="526" name="UserNameIndex">
+    <index id="609" parent="526" name="UserNameIndex">
       <ColNames>NormalizedUserName</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="617" parent="526" name="EmailIndex">
+    <index id="610" parent="526" name="EmailIndex">
       <ColNames>NormalizedEmail</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="618" parent="526" name="PRIMARY">
+    <key id="611" parent="526" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="619" parent="526" name="UserNameIndex">
+    <key id="612" parent="526" name="UserNameIndex">
       <UnderlyingIndexName>UserNameIndex</UnderlyingIndexName>
     </key>
-    <column id="620" parent="527" name="ChecklistId">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="621" parent="527" name="Sign">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="622" parent="527" name="Freeform">
-      <DasType>text|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="623" parent="527" name="CompletionDate">
-      <DasType>date|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <index id="624" parent="527" name="PRIMARY">
-      <ColNames>ChecklistId</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="625" parent="527" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="626" parent="528" name="ChecklistId">
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="627" parent="528" name="CheckpointId">
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <foreign-key id="628" parent="528" name="ChecklistCheckpoints_ibfk_1">
-      <ColNames>ChecklistId</ColNames>
-      <RefColNames>ChecklistId</RefColNames>
-      <RefTableName>Checklist</RefTableName>
-    </foreign-key>
-    <foreign-key id="629" parent="528" name="ChecklistCheckpoints_ibfk_2">
-      <ColNames>CheckpointId</ColNames>
-      <RefColNames>CheckpointId</RefColNames>
-      <RefTableName>CheckpointsEntry</RefTableName>
-    </foreign-key>
-    <index id="630" parent="528" name="PRIMARY">
-      <ColNames>ChecklistId
-CheckpointId</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="631" parent="528" name="CheckpointId">
-      <ColNames>CheckpointId</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="632" parent="528" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="633" parent="529" name="CheckpointId">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="634" parent="529" name="ClutchCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="635" parent="529" name="BrakeCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="636" parent="529" name="DrumBearingCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="637" parent="529" name="PTOCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <column id="638" parent="529" name="ChainTensionCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <column id="639" parent="529" name="WireCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <column id="640" parent="529" name="PinionBearingCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>8</Position>
-    </column>
-    <column id="641" parent="529" name="ChainWheelKeyCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>9</Position>
-    </column>
-    <column id="642" parent="529" name="HydraulicCylinderCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>10</Position>
-    </column>
-    <column id="643" parent="529" name="HoseCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>11</Position>
-    </column>
-    <column id="644" parent="529" name="HydraulicBlockTest">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>12</Position>
-    </column>
-    <column id="645" parent="529" name="TankOilChange">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>13</Position>
-    </column>
-    <column id="646" parent="529" name="GearboxOilChange">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>14</Position>
-    </column>
-    <column id="647" parent="529" name="RingCylinderSealsCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>15</Position>
-    </column>
-    <column id="648" parent="529" name="BrakeCylinderSealsCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>16</Position>
-    </column>
-    <column id="649" parent="529" name="WinchWiringCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>17</Position>
-    </column>
-    <column id="650" parent="529" name="RadioCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>18</Position>
-    </column>
-    <column id="651" parent="529" name="ButtonBoxCheck">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>19</Position>
-    </column>
-    <column id="652" parent="529" name="PressureSettings">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>20</Position>
-    </column>
-    <column id="653" parent="529" name="FunctionTest">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>21</Position>
-    </column>
-    <column id="654" parent="529" name="TractionForceKN">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>22</Position>
-    </column>
-    <column id="655" parent="529" name="BrakeForceKN">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>23</Position>
-    </column>
-    <index id="656" parent="529" name="PRIMARY">
-      <ColNames>CheckpointId</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="657" parent="529" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="658" parent="530" name="ServiceFormId">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="659" parent="530" name="Customer">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="660" parent="530" name="DateReceived">
-      <DasType>date|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="661" parent="530" name="Address">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="662" parent="530" name="Email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="663" parent="530" name="OrderNumber">
-      <DasType>int(11)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <column id="664" parent="530" name="Phone">
-      <DasType>int(11)|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <column id="665" parent="530" name="ProductType">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>8</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="666" parent="530" name="Year">
-      <DasType>int(11)|0s</DasType>
-      <Position>9</Position>
-    </column>
-    <column id="667" parent="530" name="Service">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>10</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="668" parent="530" name="Warranty">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>11</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="669" parent="530" name="SerialNumber">
-      <DasType>int(11)|0s</DasType>
-      <Position>12</Position>
-    </column>
-    <column id="670" parent="530" name="Agreement">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>13</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="671" parent="530" name="RepairDescription">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>14</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="672" parent="530" name="UsedParts">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>15</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="673" parent="530" name="WorkHours">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>16</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="674" parent="530" name="CompletionDate">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>17</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="675" parent="530" name="ReplacedPartsReturned">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>18</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="676" parent="530" name="ShippingMethod">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>19</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="677" parent="530" name="CustomerSignature">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>20</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <column id="678" parent="530" name="RepairerSignature">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>21</Position>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </column>
-    <index id="679" parent="530" name="PRIMARY">
-      <ColNames>ServiceFormId</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="680" parent="530" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="681" parent="531" name="MigrationId">
+    <column id="613" parent="527" name="MigrationId">
       <DasType>varchar(150)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="682" parent="531" name="ProductVersion">
+    <column id="614" parent="527" name="ProductVersion">
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="683" parent="531" name="PRIMARY">
+    <index id="615" parent="527" name="PRIMARY">
       <ColNames>MigrationId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="684" parent="531" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="685" parent="532" name="userID">
-      <DasType>int(11)|0s</DasType>
-      <Position>1</Position>
-    </column>
-    <foreign-key id="686" parent="532" name="mekaniker_ibfk_1">
-      <ColNames>userID</ColNames>
-      <RefColNames>userID</RefColNames>
-      <RefTableName>userAccount</RefTableName>
-    </foreign-key>
-    <index id="687" parent="532" name="userID">
-      <ColNames>userID</ColNames>
-      <Type>btree</Type>
-    </index>
-    <column id="688" parent="533" name="userID">
-      <DasType>int(11)|0s</DasType>
-      <Position>1</Position>
-    </column>
-    <foreign-key id="689" parent="533" name="service_ansatt_ibfk_1">
-      <ColNames>userID</ColNames>
-      <RefColNames>userID</RefColNames>
-      <RefTableName>userAccount</RefTableName>
-    </foreign-key>
-    <index id="690" parent="533" name="userID">
-      <ColNames>userID</ColNames>
-      <Type>btree</Type>
-    </index>
-    <column id="691" parent="534" name="userID">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="692" parent="534" name="password">
-      <DasType>varchar(50)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="693" parent="534" name="loginStatus">
-      <DasType>tinyint(1)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="694" parent="534" name="fullName">
-      <DasType>varchar(100)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="695" parent="534" name="address">
-      <DasType>varchar(100)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="696" parent="534" name="email">
-      <DasType>varchar(50)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <index id="697" parent="534" name="PRIMARY">
-      <ColNames>userID</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="698" parent="534" name="PRIMARY">
+    <key id="616" parent="527" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

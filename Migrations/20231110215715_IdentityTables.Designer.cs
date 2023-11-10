@@ -11,8 +11,8 @@ using ReficioSolution.Data;
 namespace ReficioSolution.Migrations
 {
     [DbContext(typeof(ReficioSolutionContext))]
-    [Migration("20231110145557_NewRegistrationColums")]
-    partial class NewRegistrationColums
+    [Migration("20231110215715_IdentityTables")]
+    partial class IdentityTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -275,7 +275,7 @@ namespace ReficioSolution.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ApplicationUser");
+                    b.ToTable("ApplicationUsers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
