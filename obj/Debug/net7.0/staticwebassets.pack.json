@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\nlogo.png",
+      "PackagePath": "staticwebassets\\nlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\nwhitelogo.png",
+      "PackagePath": "staticwebassets\\nwhitelogo.png"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

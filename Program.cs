@@ -14,7 +14,8 @@ builder.Services.AddDbContext<ReficioSolutionContext>(options =>
     options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0))); // Provide a valid MySQL version
 });
 
-builder.Services.AddDefaultIdentity<ReficioSolutionUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ReficioSolutionUser>().AddDefaultTokenProviders()
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ReficioSolutionContext>();
 
 // Add services to the container.
