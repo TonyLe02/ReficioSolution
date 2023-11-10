@@ -1282,8 +1282,8 @@
     </schema>
     <schema id="510" parent="1" name="ReficioDB">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-10.15:25:19</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-10.14:25:19</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-10.15:52:50</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-10.14:52:50</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="511" parent="1" name="mysql">
