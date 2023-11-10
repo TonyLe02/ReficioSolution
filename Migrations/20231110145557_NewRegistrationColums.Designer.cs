@@ -11,7 +11,7 @@ using ReficioSolution.Data;
 namespace ReficioSolution.Migrations
 {
     [DbContext(typeof(ReficioSolutionContext))]
-    [Migration("20231110145230_NewRegistrationColums")]
+    [Migration("20231110145557_NewRegistrationColums")]
     partial class NewRegistrationColums
     {
         /// <inheritdoc />
