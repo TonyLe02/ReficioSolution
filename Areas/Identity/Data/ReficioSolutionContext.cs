@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration; // Add this namespace
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using ReficioSolution.Areas.Identity.Data;
+using ReficioSolution.Models;
 
 namespace ReficioSolution.Data
 {
@@ -16,6 +17,8 @@ namespace ReficioSolution.Data
         {
             _configuration = configuration; // Initialize the configuration
         }
+
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
