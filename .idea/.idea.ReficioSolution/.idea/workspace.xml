@@ -12,11 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2d1650c7-d2f8-44e5-86fe-96b39fdb530b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Data/ReficioSolutionUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Data/ReficioSolutionUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AppRolesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AppRolesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20231110215715_IdentityTables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20231110215715_IdentityTables.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" afterDir="false" />
