@@ -18,7 +18,7 @@ namespace ReficioSolution.Data
             _configuration = configuration; // Initialize the configuration
         }
 
-        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
