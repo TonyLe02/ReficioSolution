@@ -21,14 +21,12 @@ namespace ReficioSolution.Controllers
 		}
 
 		[HttpGet]
-
 		public IActionResult Create()
 		{
 			return View();
-
 		}
+		
 		[HttpPost]
-
 		public async Task<IActionResult> Create(IdentityRole model)
 		{
 			//Avoid duplicate roles
