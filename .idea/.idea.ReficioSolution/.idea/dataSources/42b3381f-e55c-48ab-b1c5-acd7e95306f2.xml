@@ -1276,8 +1276,8 @@
     </collation>
     <schema id="508" parent="1" name="ReficioDB">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-10.22:57:40</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-10.21:57:40</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-10.23:21:34</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-10.22:21:34</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="509" parent="1" name="information_schema">
@@ -1350,14 +1350,16 @@
       <Position>1</Position>
     </column>
     <column id="529" parent="519" name="Firstname">
-      <DasType>longtext|0s</DasType>
+      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
+      <CollationName>utf8mb3_general_ci</CollationName>
     </column>
     <column id="530" parent="519" name="Lastname">
-      <DasType>longtext|0s</DasType>
+      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
+      <CollationName>utf8mb3_general_ci</CollationName>
     </column>
     <column id="531" parent="519" name="UserName">
       <DasType>longtext|0s</DasType>
@@ -1723,44 +1725,58 @@ Name</ColNames>
       <NotNull>1</NotNull>
       <Position>15</Position>
     </column>
-    <index id="608" parent="526" name="PRIMARY">
+    <column id="608" parent="526" name="Firstname">
+      <DasType>varchar(255)|0s</DasType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </column>
+    <column id="609" parent="526" name="Lastname">
+      <DasType>varchar(255)|0s</DasType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>17</Position>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </column>
+    <index id="610" parent="526" name="PRIMARY">
       <ColNames>Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="609" parent="526" name="UserNameIndex">
+    <index id="611" parent="526" name="UserNameIndex">
       <ColNames>NormalizedUserName</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="610" parent="526" name="EmailIndex">
+    <index id="612" parent="526" name="EmailIndex">
       <ColNames>NormalizedEmail</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="611" parent="526" name="PRIMARY">
+    <key id="613" parent="526" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="612" parent="526" name="UserNameIndex">
+    <key id="614" parent="526" name="UserNameIndex">
       <UnderlyingIndexName>UserNameIndex</UnderlyingIndexName>
     </key>
-    <column id="613" parent="527" name="MigrationId">
+    <column id="615" parent="527" name="MigrationId">
       <DasType>varchar(150)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="614" parent="527" name="ProductVersion">
+    <column id="616" parent="527" name="ProductVersion">
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="615" parent="527" name="PRIMARY">
+    <index id="617" parent="527" name="PRIMARY">
       <ColNames>MigrationId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="616" parent="527" name="PRIMARY">
+    <key id="618" parent="527" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

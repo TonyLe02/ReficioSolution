@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using ReficioSolution.Data;
+using ReficioSolution.Models;
 
 namespace ReficioSolution.Controllers
 {
-	[Authorize]
+	[Authorize(Roles="Admin")]
 	public class AppRolesController : Controller
 	{
 		private readonly RoleManager<IdentityRole> _roleManager;
@@ -21,14 +24,12 @@ namespace ReficioSolution.Controllers
 		}
 
 		[HttpGet]
-
 		public IActionResult Create()
 		{
 			return View();
-
 		}
+		
 		[HttpPost]
-
 		public async Task<IActionResult> Create(IdentityRole model)
 		{
 			//Avoid duplicate roles
