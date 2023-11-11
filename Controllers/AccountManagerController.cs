@@ -11,12 +11,12 @@ namespace ReficioSolution.Controllers
 {
 
     [Authorize(Roles = "Admin")]
-    public class AccountController : Controller
+    public class AccountManagerController : Controller
     {
         private readonly UserManager<ReficioSolutionUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(UserManager<ReficioSolutionUser> userManager, RoleManager<IdentityRole> roleManager)
+        public AccountManagerController(UserManager<ReficioSolutionUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -29,7 +29,7 @@ namespace ReficioSolution.Controllers
             var roles = await _roleManager.Roles.ToListAsync();
 
             // Pass the users and roles to the view
-            var viewModel = new AccountViewModel { Users = users, Roles = roles };
+            var viewModel = new AccountManagerViewModel { Users = users, Roles = roles };
             return View(viewModel);
         }
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ReficioSolution.Models
 {
-    public class AccountViewModel
+    public class AccountManagerViewModel
     {
         public List<ReficioSolutionUser> Users { get; set; }
         public List<IdentityRole> Roles { get; set; }
