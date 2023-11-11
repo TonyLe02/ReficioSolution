@@ -30,14 +30,14 @@
                 </td>
                 <td>
                     @user.Email <!-- Display user email -->
-                </td>
+                </td>               
                 <td>
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <!-- Use col-md-12 to take up the full width on medium-sized screens, text-right to align to the right -->
                             <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
                             <a asp-action="Details" asp-route-id="@user.Id">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                            <a href="Delete" class="btn btn-danger" onclick="confirmDelete('@user.Id')">Delete</a>
                         </div>
                     </div>
                 </td>
@@ -45,3 +45,29 @@
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        function confirmDelete(userId) {
+            var result = confirm("Are you sure you want to delete this user?");
+            if (result) {
+                // If the user confirms, send an AJAX request to the server to delete the user
+                $.ajax({
+                    type: "POST",
+                    url: "/Account/Delete",
+                    data: { id: userId },
+                    success: function () {
+                        // Optionally, you can perform additional actions after a successful delete
+                        // For example, refreshing the user list or displaying a success message.
+                        alert("User deleted successfully.");
+                    },
+                    error: function () {
+                        // Handle errors, such as displaying an error message
+                        alert("Error deleting user.");
+                    }
+                });
+            }
+        }
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}
