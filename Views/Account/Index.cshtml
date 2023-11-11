@@ -30,14 +30,12 @@
                 </td>
                 <td>
                     @user.Email <!-- Display user email -->
-                </td>               
+                </td>              
                 <td>
                     <div class="row">
                         <div class="col-md-12 text-right">
-                            <!-- Use col-md-12 to take up the full width on medium-sized screens, text-right to align to the right -->
-                            <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@user.Id">Details</a> |
-                            <a href="Delete" class="btn btn-danger" onclick="confirmDelete('@user.Id')">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary">Edit</a>
+                            <a href="Account" class="btn btn-danger" onclick="confirmDelete('@user.Id')">Delete</a>
                         </div>
                     </div>
                 </td>

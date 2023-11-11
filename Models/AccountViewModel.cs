@@ -7,7 +7,7 @@ namespace ReficioSolution.Models
     public class AccountViewModel
     {
         public List<ReficioSolutionUser> Users { get; set; }
-        public List<IdentityRole> Roles { get; set; }
+        
     }
 }
     
