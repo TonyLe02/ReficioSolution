@@ -52,16 +52,15 @@ namespace ReficioSolution.Controllers
 
         public async Task<IActionResult> Index()
         {
-            // Get a list of users and roles
-            var users = await _userManager.Users.ToListAsync();
-            var roles = await _roleManager.Roles.ToListAsync();
+            // Get a list of users  
+            var users = await _userManager.Users.ToListAsync();           
 
-            // Pass the users and roles to the view
-            var viewModel = new AccountViewModel { Users = users, Roles = roles };
+            // Pass the users to the view
+            var viewModel = new AccountViewModel { Users = users, };
             return View(viewModel);
         }
 
-        // Additional actions can be added as needed (e.g., Create, Edit)
+        
     }
 
 
