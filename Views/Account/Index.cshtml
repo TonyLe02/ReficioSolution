@@ -1,0 +1,47 @@
+﻿@model AccountViewModel
+
+@{
+    ViewData["Title"] = "Administrer kontoer";
+}
+
+<!-- Header -->
+<h1>Administrer kontoer</h1>
+
+<!-- Display users with Edit, Details, and Delete links -->
+<h2>Brukere</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col">Navn</th> <!-- Display column header for Name -->
+            <th class="col">E-post</th> <!-- Display column header for Email -->
+            <th class="col">Handlinger</th> <!-- Display column header for Actions -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-md-8">
+                            @($"{user.Firstname} {user.Lastname}") <!-- Display user's full name -->
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    @user.Email <!-- Display user email -->
+                </td>
+                <td>
+                    <div class="row">
+                        <div class="col-md-12 text-right">
+                            <!-- Use col-md-12 to take up the full width on medium-sized screens, text-right to align to the right -->
+                            <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@user.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
