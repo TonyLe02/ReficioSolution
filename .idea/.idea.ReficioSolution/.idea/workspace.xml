@@ -14,31 +14,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ServiceFormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ServiceFormController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ServiceForm/ServiceFormViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ServiceForm/ServiceFormViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/FilledOutServiceForm/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/CheckListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/CheckListRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Account/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/AppRoles/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/AppRoles/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/AppRoles/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/AppRoles/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ServiceForm/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ServiceForm/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +160,7 @@
       <workItem from="1699627390697" duration="1454000" />
       <workItem from="1699711985978" duration="601000" />
       <workItem from="1699797400582" duration="1996000" />
+      <workItem from="1699802345917" duration="2469000" />
     </task>
     <servers />
   </component>
