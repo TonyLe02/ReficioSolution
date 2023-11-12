@@ -11,7 +11,7 @@ using ReficioSolution.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("ReficioSolutionContextConnection") ?? throw new InvalidOperationException("Connection string 'ReficioSolutionContextConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'ReficioSolutionContextConnection' not found.");
 
 builder.Services.AddDbContext<ReficioSolutionContext>(options =>
 {
@@ -22,7 +22,7 @@ builder.Services.AddDbContext<ReficioSolutionContext>(options =>
 // Configure the database connection.
 builder.Services.AddScoped<IDbConnection>(_ =>
 {
-    var connectionString = builder.Configuration.GetConnectionString("ReficioSolutionContextConnection");
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     return new MySqlConnection(connectionString);
 });
 

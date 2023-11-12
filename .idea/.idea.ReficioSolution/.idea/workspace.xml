@@ -10,7 +10,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d1650c7-d2f8-44e5-86fe-96b39fdb530b" name="Changes" comment="" />
+    <list default="true" id="2d1650c7-d2f8-44e5-86fe-96b39fdb530b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ServiceFormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ServiceFormController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ServiceForm/ServiceFormViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ServiceForm/ServiceFormViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/FilledOutServiceForm/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/CheckListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/CheckListRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Account/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Account/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/AppRoles/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/AppRoles/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/AppRoles/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/AppRoles/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ServiceForm/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ServiceForm/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +57,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d382df578ec93391918cfaa4ce7f4b8f35c9aed1241d6556dc9be26df13c/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7f2081ecc4eb28a8b74ef842bd96fbdea04da8adca65a029c2777c21c7433e5/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/935b70875535403897ca6a5bff3ab2812e0908/_e53a8/IDbConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b4aa9d6deee74e2a511d54506de2de864a4b58ad22637cbbc79ef58cb10e3e9/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,6 +180,7 @@
       <workItem from="1699626084440" duration="813000" />
       <workItem from="1699627390697" duration="1454000" />
       <workItem from="1699711985978" duration="601000" />
+      <workItem from="1699797400582" duration="1996000" />
     </task>
     <servers />
   </component>

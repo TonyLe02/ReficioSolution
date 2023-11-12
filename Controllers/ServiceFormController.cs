@@ -30,7 +30,5 @@ namespace ReficioSolution.Controllers
             
             return View(serviceFormViewModel);
         }
-        
-        //public IActionResult Post()
     }
 }

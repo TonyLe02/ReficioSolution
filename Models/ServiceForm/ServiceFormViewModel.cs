@@ -21,7 +21,6 @@ namespace ReficioSolution.Models.Serviceform
         public string ProductType { get; set; }
         public int Year { get; set; }
         public int SerialNumber { get; set; }
-
         public string Service { get; set; }
         public string Warranty { get; set; }
         public string Agreement { get; set; }

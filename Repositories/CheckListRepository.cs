@@ -7,7 +7,6 @@ using System.Data;
 //using System.Linq;
 using ReficioSolution.Models.CheckList;
 
-
 namespace ReficioSolution.Repositories
 {
     public class CheckListRepository : ICheckListRepository
@@ -45,12 +44,12 @@ namespace ReficioSolution.Repositories
             }
         }*/
 
-        public void Insert(CheckListViewModel CheckListViewModel)
+        public void Insert(CheckListViewModel checkListViewModel)
         {
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                dbConnection.Execute("INSERT INTO CheckpointsEntry ( ClutchCheck, BrakeCheck, DrumBearingCheck, PTOCheck, ChainTensionCheck,  WireCheck, PinionBearingCheck, ChainWheelKeyCheck, HydraulicCylinderCheck, HoseCheck, HydraulicBlockTest, TankOilChange, GearboxOilChange, RingCylinderSealsCheck, BrakeCylinderSealsCheck, WinchWiringCheck, RadioCheck, ButtonBoxCheck, PressureSettings, FunctionTest, TractionForceKN, BrakeForceKN, freeform, Sign, CompletionDate) VALUES ( @ClutchCheck, @BrakeCheck, @DrumBearingCheck, @PTOCheck, @ChainTensionCheck, @WireCheck, @PinionBearingCheck, @ChainWheelKeyCheck, @HydraulicCylinderCheck, @HoseCheck, @HydraulicBlockTest, @TankOilChange, @GearboxOilChange, @RingCylinderSealsCheck, @BrakeCylinderSealsCheck, @WinchWiringCheck, @RadioCheck, @ButtonBoxCheck, @PressureSettings, @FunctionTest, @TractionForceKN, @BrakeForceKN, @freeform, @Sign, @CompletionDate)", CheckListViewModel);
+                dbConnection.Execute("INSERT INTO CheckpointsEntry ( ClutchCheck, BrakeCheck, DrumBearingCheck, PTOCheck, ChainTensionCheck,  WireCheck, PinionBearingCheck, ChainWheelKeyCheck, HydraulicCylinderCheck, HoseCheck, HydraulicBlockTest, TankOilChange, GearboxOilChange, RingCylinderSealsCheck, BrakeCylinderSealsCheck, WinchWiringCheck, RadioCheck, ButtonBoxCheck, PressureSettings, FunctionTest, TractionForceKN, BrakeForceKN, freeform, Sign, CompletionDate) VALUES ( @ClutchCheck, @BrakeCheck, @DrumBearingCheck, @PTOCheck, @ChainTensionCheck, @WireCheck, @PinionBearingCheck, @ChainWheelKeyCheck, @HydraulicCylinderCheck, @HoseCheck, @HydraulicBlockTest, @TankOilChange, @GearboxOilChange, @RingCylinderSealsCheck, @BrakeCylinderSealsCheck, @WinchWiringCheck, @RadioCheck, @ButtonBoxCheck, @PressureSettings, @FunctionTest, @TractionForceKN, @BrakeForceKN, @freeform, @Sign, @CompletionDate)", checkListViewModel);
             }
         }
     }
