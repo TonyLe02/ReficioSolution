@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using ReficioSolution.Models.Serviceform;
 using ReficioSolution.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ReficioSolution.Controllers
 {
+    [Authorize]
     public class ServiceFormController : Controller
     {
         private readonly ServiceFormRepository _repository;

@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using ReficioSolution.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ReficioSolution.Controllers;
 
+[Authorize]
 public class FilledOutServiceFormController : Controller
 {
     private readonly ServiceFormRepository _repository;
