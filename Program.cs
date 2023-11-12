@@ -1,9 +1,13 @@
+using System.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
 using Microsoft.Extensions.Configuration;
+using MySqlConnector;
 using ReficioSolution.Areas.Identity.Data;
 using ReficioSolution.Data;
+using ReficioSolution.Repositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +17,16 @@ builder.Services.AddDbContext<ReficioSolutionContext>(options =>
 {
     options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0))); // Provide a valid MySQL version
 });
+
+
+// Configure the database connection.
+builder.Services.AddScoped<IDbConnection>(_ =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("ReficioSolutionContextConnection");
+    return new MySqlConnection(connectionString);
+});
+
+builder.Services.AddTransient<ServiceFormRepository>();
 
 builder.Services.AddDefaultIdentity<ReficioSolutionUser>().AddDefaultTokenProviders()
     .AddRoles<IdentityRole>()

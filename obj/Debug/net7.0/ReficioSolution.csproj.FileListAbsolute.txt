@@ -290,3 +290,4 @@ C:\Users\Tony\IdeaProjects\ReficioSolution\obj\Debug\net7.0\refint\ReficioSoluti
 C:\Users\Tony\IdeaProjects\ReficioSolution\obj\Debug\net7.0\ReficioSolution.pdb
 C:\Users\Tony\IdeaProjects\ReficioSolution\obj\Debug\net7.0\ReficioSolution.genruntimeconfig.cache
 C:\Users\Tony\IdeaProjects\ReficioSolution\obj\Debug\net7.0\ref\ReficioSolution.dll
+C:\Users\Tony\IdeaProjects\ReficioSolution\bin\Debug\net7.0\Dapper.dll

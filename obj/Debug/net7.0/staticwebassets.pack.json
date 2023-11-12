@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
+      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\ServiceForm.css",
+      "PackagePath": "staticwebassets\\css\\ServiceForm.css"
+    },
+    {
+      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\ServiceOrder.css",
+      "PackagePath": "staticwebassets\\css\\ServiceOrder.css"
+    },
+    {
       "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

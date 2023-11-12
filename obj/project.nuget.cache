@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5au15PVhudHGK2obJOnjQqH4cZ5WbBH4bNXUmJUp7qCsTLDx0M0PDTqjTUOnZtd/GxSlDKTRI0TlzBB1udmx8g==",
+  "dgSpecHash": "TocqeL8lFnMYZxww5v6RjNG6o9xLOkDt7v2Y7QcfEEkkBUnj0vmGfZJpo0U4m6k4vV2yLasZGYLTeZzYNfmslw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\ReficioSolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tony\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tony\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Tony\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
     "C:\\Users\\Tony\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Tony\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tony\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
