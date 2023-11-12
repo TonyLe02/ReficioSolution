@@ -11,7 +11,8 @@ using ReficioSolution.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'ReficioSolutionContextConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new
+    InvalidOperationException("Connection string 'ReficioSolutionContextConnection' not found.");
 
 builder.Services.AddDbContext<ReficioSolutionContext>(options =>
 {
