@@ -34,8 +34,10 @@
                 <td>
                     <div class="row">
                         <div class="col-md-12 text-right">
-                            <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary">Edit</a>
-                            <a href="#" class="btn btn-danger" onclick="confirmDelete('@user.Id')">Delete</a>
+                            @*
+                            <a asp-action="Rediger" asp-route-id="@user.Id" class="btn btn-primary">Edit</a>
+                            *@
+                            <a href="#" class="btn btn-danger" onclick="confirmDelete('@user.Id')">Fjern</a>
                         </div>
                     </div>
                 </td>

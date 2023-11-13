@@ -6,7 +6,6 @@
     <title>@ViewData["Title"] - ReficioSolution</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ReficioSolution.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -30,10 +29,23 @@
                         <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="AppRoles" asp-action="Index">Roller</a>
                         </li>
-
+                        
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="ServiceForm" asp-action="Index">Serviceskjema</a> <!-- Add this line -->
                         </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="ServiceOrder" asp-action="Index">Serviceordre</a> <!-- Add this line -->
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CheckList" asp-action="Index">Sjekkliste</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CheckListOrder" asp-action="Index">Sjekkliste oversikt</a>
+                        </li>
+                        
                     </ul>                
                 </div>
             </div>
