@@ -1282,8 +1282,8 @@
     </schema>
     <schema id="510" parent="1" name="ReficioDB">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-12.16:49:30</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-12.15:49:29</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-13.14:12:11</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-13.13:12:11</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="511" parent="1" name="mysql">
@@ -1923,8 +1923,8 @@ Name</ColNames>
     <key id="652" parent="528" name="ChecklistId">
       <UnderlyingIndexName>ChecklistId</UnderlyingIndexName>
     </key>
-    <column id="653" parent="529" name="Id">
-      <AutoIncrement>3</AutoIncrement>
+    <column id="653" parent="529" name="ServiceFormId">
+      <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2027,7 +2027,7 @@ Name</ColNames>
       <CollationName>utf8mb3_general_ci</CollationName>
     </column>
     <index id="674" parent="529" name="PRIMARY">
-      <ColNames>Id</ColNames>
+      <ColNames>ServiceFormId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>

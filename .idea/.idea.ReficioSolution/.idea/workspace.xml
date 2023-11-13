@@ -11,13 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d1650c7-d2f8-44e5-86fe-96b39fdb530b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +155,7 @@
       <workItem from="1699711985978" duration="601000" />
       <workItem from="1699797400582" duration="1996000" />
       <workItem from="1699802345917" duration="2469000" />
+      <workItem from="1699882502556" duration="73000" />
     </task>
     <servers />
   </component>
