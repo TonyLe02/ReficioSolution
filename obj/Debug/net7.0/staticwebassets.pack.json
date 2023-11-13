@@ -5,24 +5,12 @@
       "PackagePath": "staticwebassets\\ReficioSolution.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\CheckList.css",
-      "PackagePath": "staticwebassets\\css\\CheckList.css"
-    },
-    {
-      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\FilledOutServiceForm.css",
-      "PackagePath": "staticwebassets\\css\\FilledOutServiceForm.css"
-    },
-    {
       "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
       "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\ServiceForm.css",
       "PackagePath": "staticwebassets\\css\\ServiceForm.css"
-    },
-    {
-      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\ServiceOrder.css",
-      "PackagePath": "staticwebassets\\css\\ServiceOrder.css"
     },
     {
       "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\site.css",

@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ReficioSolution.Models.Serviceform
+namespace ReficioSolution.Models
 {
     public class ServiceFormViewModel
     {
-        public int Id { get; set; }
+        public int ServiceFormId { get; set; }
 
         [Required(ErrorMessage = "Customer is required.")]
         public string Customer { get; set; }
@@ -21,6 +21,7 @@ namespace ReficioSolution.Models.Serviceform
         public string ProductType { get; set; }
         public int Year { get; set; }
         public int SerialNumber { get; set; }
+
         public string Service { get; set; }
         public string Warranty { get; set; }
         public string Agreement { get; set; }

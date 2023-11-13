@@ -1,10 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using ReficioSolution.Repositories;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ReficioSolution.Controllers;
 
-[Authorize]
 public class FilledOutServiceFormController : Controller
 {
     private readonly ServiceFormRepository _repository;
@@ -14,9 +12,13 @@ public class FilledOutServiceFormController : Controller
         _repository = repository;
     }
     
-    public IActionResult Index()
+    public IActionResult Index(int id)
     {
-        var serviceFormEntry = _repository.GetAll();
+        var serviceFormEntry = _repository.GetOneRowById(id);
+        if (serviceFormEntry == null)
+        {
+            return NotFound();
+        }
         return View(serviceFormEntry);
     }
 }

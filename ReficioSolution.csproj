@@ -27,6 +27,14 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\ServiceOrder\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\ServiceForm\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\FilledOutServiceForm\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CheckList\Index.cshtml" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-using ReficioSolution.Models.Serviceform;
+using ReficioSolution.Models;
 
 namespace ReficioSolution.Repositories;
 
@@ -7,5 +7,6 @@ namespace ReficioSolution.Repositories;
         public IEnumerable<ServiceFormViewModel> GetAll();
 
         public IEnumerable<ServiceFormViewModel> GetSomeOrderInfo();
+        
         
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PR84PYqDPk5F1DYd8TQrHCVKdfJlV586p18cIXe1h3I=",
+  "Hash": "r+vPISE0YKYrDxyqXgIJNLlE6nNYwge4nPrk5hEBbXg=",
   "Source": "ReficioSolution",
   "BasePath": "_content/ReficioSolution",
   "Mode": "Default",
@@ -1071,40 +1071,6 @@
       "OriginalItemSpec": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ReficioSolution.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\CheckList.css",
-      "SourceId": "ReficioSolution",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\",
-      "BasePath": "_content/ReficioSolution",
-      "RelativePath": "css/CheckList.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\CheckList.css"
-    },
-    {
-      "Identity": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\FilledOutServiceForm.css",
-      "SourceId": "ReficioSolution",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\",
-      "BasePath": "_content/ReficioSolution",
-      "RelativePath": "css/FilledOutServiceForm.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\FilledOutServiceForm.css"
-    },
-    {
       "Identity": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\Register.css",
       "SourceId": "ReficioSolution",
       "SourceType": "Discovered",
@@ -1137,23 +1103,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ServiceForm.css"
-    },
-    {
-      "Identity": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\ServiceOrder.css",
-      "SourceId": "ReficioSolution",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\",
-      "BasePath": "_content/ReficioSolution",
-      "RelativePath": "css/ServiceOrder.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\ServiceOrder.css"
     },
     {
       "Identity": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\site.css",
