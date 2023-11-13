@@ -14,33 +14,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/dataSources/42b3381f-e55c-48ab-b1c5-acd7e95306f2/storage_v2/_src_/schema/ReficioDB.cTJPRg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReficioSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CheckListController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/FilledOutServiceFormController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ServiceFormController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ServiceOrderController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/CheckList/CheckListViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ServiceForm/ServiceFormViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReficioSolution.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReficioSolution.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/CheckListRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ICheckListRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IServiceFormRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ServiceFormRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CheckList/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/FilledOutServiceForm/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ServiceForm/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ServiceOrder/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateDb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CreateDb.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ReficioSolution.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ReficioSolution.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ReficioSolution.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ReficioSolution.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/CheckList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/FilledOutServiceForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/ServiceOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.ReficioSolution.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

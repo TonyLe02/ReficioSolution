@@ -28,6 +28,7 @@ builder.Services.AddScoped<IDbConnection>(_ =>
 });
 
 builder.Services.AddTransient<ServiceFormRepository>();
+builder.Services.AddTransient<CheckListRepository>();
 
 builder.Services.AddDefaultIdentity<ReficioSolutionUser>().AddDefaultTokenProviders()
     .AddRoles<IdentityRole>()

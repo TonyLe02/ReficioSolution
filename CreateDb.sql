@@ -58,15 +58,6 @@ CREATE TABLE IF NOT EXISTS CheckpointsEntry
     FOREIGN KEY (ChecklistId) REFERENCES Checklist (ChecklistId)
 );
 
--- Table for the checkpoints
-CREATE TABLE IF NOT EXISTS userAccount (
-    userID INT PRIMARY KEY auto_increment,
-    password VARCHAR(50) not null,
-    loginStatus bool not null, -- Gjorde om til bool type
-    fullName VARCHAR(100) not null,
-    address VARCHAR(100) not null,
-    email VARCHAR(50) not null
-);
 
 -- Table for the Checklist
     CREATE TABLE IF NOT EXISTS Checklist

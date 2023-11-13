@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ReficioSolution.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\CheckList.css",
+      "PackagePath": "staticwebassets\\css\\CheckList.css"
+    },
+    {
       "Id": "C:\\Users\\Tony\\IdeaProjects\\ReficioSolution\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
