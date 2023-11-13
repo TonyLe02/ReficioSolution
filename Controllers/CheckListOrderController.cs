@@ -4,11 +4,11 @@ using ReficioSolution.Repositories;
 
 namespace ReficioSolution.Controllers
 {
-    public class SjekklisterController : Controller
+    public class CheckListOrderController : Controller
     {
         private readonly CheckListRepository _repository;
 
-        public SjekklisterController(CheckListRepository repository)
+        public CheckListOrderController(CheckListRepository repository)
         {
             _repository = repository;
         }
